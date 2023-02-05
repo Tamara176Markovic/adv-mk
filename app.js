@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const path = require("path");
 
+
 const homeTitle = "";
 const aboutTitle = "O nama";
 const servicesTitle = "Pravne usluge";
@@ -19,6 +20,8 @@ const teamTitle = "Naš tim";
 const contactTitle = "Budimo u kontaktu";
 
 const app = express();
+
+const PORT = process.env.PORT || 8080;
 
 app.set('view engine', 'ejs');
 
@@ -64,6 +67,6 @@ app.get("/contact", function(req, res) {
 
 
 
-app.listen(3000, function() {
-    console.log("Server started o port 3000...");
+app.listen(PORT, function() {
+    console.log("Server started o port 8080...");
 });
