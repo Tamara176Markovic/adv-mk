@@ -91,7 +91,7 @@ app.get("/contact", function(req, res) {
 //     console.log("Server started o port 3000...");
 // });
 
-server.listen(PORT, err => {
+app.listen(PORT, err => {
     // error checking
     err ? console.error(err) : console.log(`listening on port ${PORT}`);
   });
