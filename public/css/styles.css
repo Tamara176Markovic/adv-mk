@@ -378,7 +378,7 @@ a:hover,
   background-color: #1d1c22;
   color: #6b8ba4;
   text-align: center;
-  padding: 40px 40px 10px;
+  padding: 40px 30px 10px;
   margin-bottom: 0;
 }
 .footer .col-md-4 {
@@ -421,7 +421,7 @@ a:hover,
 }
 .footer-link,
 .footer h6 {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 .footer h6 {
   text-transform: uppercase;
@@ -432,7 +432,7 @@ a:hover,
   margin: 0 auto;
   border: none;
   list-style-type: none;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .footer-items li,
@@ -452,7 +452,7 @@ a:hover,
 .footer-contact i {
   font-size: 16px;
   padding-right: 10px;
-  padding-left: 80px;
+  padding-left: 60px;
   color: #6b8ba4;
 }
 
