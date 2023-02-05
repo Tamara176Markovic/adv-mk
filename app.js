@@ -3,6 +3,28 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const path = require("path");
 
+// Import http library
+const http = require("http");
+// use env variable to define tcp/ip port with a default
+const PORT = process.env.PORT || 8080;
+//create our server object
+const server = http.createServer();
+// We define a function that runs in response a request event
+server.on("request", (request, response) => {
+  // handle request based on method then URL
+  response.statusCode = 200;
+  response.write("<h1>Hello World</h1>");
+  response.end();
+});
+// get the server to start listening
+
+
+
+
+
+
+
+
 const homeTitle = "";
 const aboutTitle = "O nama";
 const servicesTitle = "Pravne usluge";
@@ -65,6 +87,11 @@ app.get("/contact", function(req, res) {
 
 
 
-app.listen(3000, function() {
-    console.log("Server started o port 3000...");
-});
+// app.listen(3000, function() {
+//     console.log("Server started o port 3000...");
+// });
+
+server.listen(PORT, err => {
+    // error checking
+    err ? console.error(err) : console.log(`listening on port ${PORT}`);
+  });
