@@ -12,10 +12,10 @@ const nekretnine = "Nekretnine";
 const radno = "Radno pravo";
 const spor = "Rešavanje sporova";
 
-const corp = "The industry's standard dummy text ever since the 1500s, when an unknown printer since the 1500s, since the 1500s, when an unknown printer took when an unknown printer took took a galley.";
-const realestate = "Lorem Ipsum is simply dummy text of the printing and industry.The industry's standard dummy text industry.The industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of";
-const sporovi = "Lorem Ipsum is simply dummy text of the printing and industry.The industry's standard dummy text industry.The industry's standard dummywhen an unknown printer took a galley of";
-const laborLaw = "Lorem Ipsum is simply dummy text of the printing and industry.The industry's standard dummy text industry.The industry's standard dummywhen an unknown printer took a galley of";
+const corp = "The industry's standard dummy text ever since the 1500s, when an unknown printer since the 1500s, since the 1500s, when an unknown printer took whenprinter took took a galleywhenprinter an unknown printer took took a galley.";
+const realestate = "Lorem Ips is industry's standard dummyindustry's standard dummy.The industry's standard dummy text industry.The industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of";
+const sporovi = "Lorem Ipsum is standard dummy text the printing and industry.The industry's standard dummy text industry.The industry's standard dummywhen an unknown printer dummywhen an unknown took a galley of";
+const laborLaw = "The industry's standard dummy of the printing and industry.The industry's standard dummy text industry.The industry's standard dummywhen an unknown printer whenprinter took a galley of";
 const teamTitle = "Naš tim";
 const contactTitle = "Budimo u kontaktu";
 

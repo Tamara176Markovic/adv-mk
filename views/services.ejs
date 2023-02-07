@@ -9,49 +9,51 @@
 <!-- Services 4 col -->
 
 <div class="container-fluid" id="services">
-  <div class="row g-5">
-    <div class="practice col-md-3 col-sm-6">
-      <i class="fa-solid fa-file-contract"></i>
-      <div class="p-3">
-        <h3>Korporativno pravo</h3>
-        <p> 
-          <%= textCorp.substring(0,200) + " ..." %> 
-          <a href="/korporativno">Saznajte više</a>
-        </p>
+  <div class="services">
+    <div class="row g-5">
+      <div class="practice col-md-3 col-sm-6">
+        <i class="fa-solid fa-file-contract"></i>
+        <div class="p-3">
+          <h3>Korporativno pravo</h3>
+          <p class="practice-txt"> 
+            <%= textCorp.substring(0,200) + " ..." %> 
+            <a href="/korporativno">Saznajte više</a>
+          </p>
+        </div>
       </div>
-      
-    </div>
-    <div class="practice col-md-3 col-sm-6">
-      <i class="fa-solid fa-house"></i>
-      <div class="p-3">
-        <h3>Nekretnine</h3>
-        <p> 
-          <%= textRealEstate.substring(0,200) + " ... " %>
-          <a href="/nekretnine">Saznajte više</a>
-        </p>
+      <div class="practice col-md-3 col-sm-6">
+        <i class="fa-solid fa-house"></i>
+        <div class="p-3">
+          <h3>Nekretnine</h3>
+          <p class="practice-txt"> 
+            <%= textRealEstate.substring(0,200) + " ... " %>
+            <a href="/nekretnine">Saznajte više</a>
+          </p>
+        </div>
+      </div>
+      <div class="practice col-md-3 col-sm-6">
+        <i class="fa-solid fa-gavel"></i>
+        <div class="p-3">
+          <h3>Rešavanje sporova</h3>
+          <p class="practice-txt"> 
+            <%= textSporovi.substring(0,200) + " ... " %>
+            <a href="/sporovi">Saznajte više</a>
+          </p>
+        </div>
+      </div>
+      <div class="practice col-md-3 col-sm-6">
+        <i class="fas fa-balance-scale"></i>
+        <div class="p-3">
+          <h3>Radno pravo</h3>
+          <p class="practice-txt"> 
+            <%= textLabor.substring(0,200) + " ... " %>
+            <a href="/radno">Saznajte više</a>
+          </p>
+        </div>
       </div>
     </div>
-    <div class="practice col-md-3 col-sm-6">
-      <i class="fa-solid fa-gavel"></i>
-      <div class="p-3">
-        <h3>Rešavanje sporova</h3>
-        <p> 
-          <%= textSporovi.substring(0,200) + " ... " %>
-          <a href="/sporovi">Saznajte više</a>
-        </p>
-      </div>
-    </div>
-    <div class="practice col-md-3 col-sm-6">
-      <i class="fas fa-balance-scale"></i>
-      <div class="p-3">
-        <h3>Radno pravo</h3>
-        <p> 
-          <%= textLabor.substring(0,200) + " ... " %>
-          <a href="/radno">Saznajte više</a>
-        </p>
-      </div>
-    </div>
-  </div> 
+  </div>
+   
 </div>
 <!-- End Services -->
 
